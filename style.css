@@ -1,0 +1,159 @@
+html,
+body {
+  /* font-family: var(--font-family-monospace); */
+  font-family: "Courier New", Courier, monospace;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+h1 {
+  color: rgb(139, 0, 120);
+  font-size: 2.8em;
+  font-weight: 500;
+}
+
+.logos {
+  display: inline-block;
+}
+.logos img {
+  margin: 25px 48px;
+  height: 100px;
+}
+.logos img:first-child {
+  margin: 48px 15px;
+}
+#bootstrap {
+  height: 70px;
+}
+#jquery {
+  height: 80px;
+  margin-left: 10px;
+}
+
+#github {
+  height: 100px;
+  position: relative;
+  top: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 3px rgba(128, 128, 128, 0.678);
+  animation: float 5s linear infinite;
+}
+@keyframes float {
+  0%,
+  40%,
+  60%,
+  100% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+}
+@media (max-width: 640px) {
+  .logos img {
+    margin: 20px 48px;
+  }
+  #jquery {
+    margin-left: 5px;
+  }
+}
+
+hr {
+  border-top: 1px solid lightslategray;
+  border-bottom: none;
+}
+
+.container {
+  max-width: 1600px;
+}
+
+.outer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 24rem;
+  margin: 24px 48px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: var(--font-family-monospace);
+}
+.card > a > div {
+  height: 24rem;
+  border: 1px solid hsla(0, 0%, 0%, 0.05);
+}
+
+.card-veganicious {
+  background-image: url("../assets/images/shots/veganicious2.png");
+  background-position: center;
+  background-size: cover;
+}
+.card-visualia {
+  background-image: url("../assets/images/shots/visualia2.png");
+  background-position: center;
+  background-size: cover;
+}
+.card-skill-drill {
+  background-image: url("../assets/images/shots/skill-drill.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-stylish-clock {
+  background-image: url("../assets/images/shots/clock2.png");
+  background-position: center;
+  background-size: cover;
+}
+.card-backgrounding {
+  background-image: url("../assets/images/shots/backgrounding.png");
+  background-position: center;
+  background-size: contain;
+}
+.card-flexing-relaxing {
+  background-image: url("../assets/images/shots/flexing-relaxing2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.card-title {
+  font-size: 1.3em;
+  margin-bottom: 24px;
+  color: hsl(39, 100%, 45%);
+}
+.card-body {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.card-text {
+  font-size: 1.1em;
+}
+
+.card-body a.btn {
+  margin-top: auto;
+}
+
+#gal-bs {
+  height: 35px;
+  position: relative;
+  top: 2px;
+  margin-left: 5px;
+}
+
+footer .container {
+  padding-top: 20px !important;
+  padding-bottom: 10px !important;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(139, 0, 120);
+}
