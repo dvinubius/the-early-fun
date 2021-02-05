@@ -121,6 +121,11 @@ hr {
   background-position: center;
   background-size: cover;
 }
+.card-dice-for-pigs {
+  background-image: url("../assets/images/shots/dice-for-pigs2.png");
+  background-position: center;
+  background-size: cover;
+}
 
 .card-title {
   font-size: 1.3em;
